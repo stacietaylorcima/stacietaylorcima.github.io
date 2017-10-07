@@ -7,13 +7,17 @@ header#portfolio-header {
 
 h1 {
   color: hsla(0, 0%, 100%, 0.9);
+  font-family: ‘Montserrat’, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
   font-weight: bold;
 }
 
 #slogan {
   color: hsla(0, 0%, 100%, 0.7);
+  font-family: ‘Merriweather’, serif;
   font-weight: lighter;
-  font-size: 1.6rem;
+  font-size: 30px;
 }
 
 main {
@@ -29,18 +33,26 @@ main {
   width: 100%;
 }
 
+footer {
+  background-color: #0F1626
+}
+
 footer#connect {
   bottom: 0;
   padding: 0.5rem;
   position: fixed;
   width: 100%;
   z-index: 1;
-
+  background-color: #0F1626;
 }
 
 #footer-links {
   margin: auto;
   font-size: 2.5rem;
+}
+
+main.mdl-layout__content.mdl-grid {
+  background-color: #F5F5F5;
 }
 
 @media screen and (max-width: 1024px) {
